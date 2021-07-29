@@ -1,0 +1,91 @@
+*{
+               margin: 0;
+               padding: 0;
+          }
+          
+          body{
+               font-family: sans-serif;
+          }
+
+          .header{
+               height: 60px;
+               width: 100%;
+               /*
+               background-image: URL();
+               */
+               background-color: #000;
+               position: fixed;
+          }
+
+          .logo{
+               height: 30px;
+               padding: 13px;
+               cursor: pointer;
+          }
+
+          .noticia{
+               padding: 15px;
+          }
+          
+          .missao{
+               color: #000;
+               font-size: 32px;
+               margin-top: 80px;
+          }
+
+          .titulo{
+               color: #000;
+               font-size: 32px;
+               margin-top: 60px;
+          }
+
+          .subtitulo{
+               color: #B2B2B2;
+               margin-top: 10px;
+               margin-bottom: 15px;
+          }
+          
+          .ler{
+               width: 250px;
+               height: 40px;
+               border: none;
+               border-radius: 3px;
+               color: #fff;
+               background-color: #FF5FFA;
+               font-weight: bold;
+               cursor: pointer;
+               margin-bottom: 100px;
+          }
+          
+          .ler:hover{
+               color: #FF5FFA;
+               background-color: #fff;
+               border: 3px solid #FF5FFA;
+               transition: 0.5s;
+          }
+
+          .ad1{
+               margin-bottom: 100px;
+          }
+
+          .adwere{
+               width: 300px;
+               height: 160px;
+          }
+
+          .ad{
+               height: 100%;
+               width: 100%;
+               /*1600x900.jpg*/
+               background: URL(../mini2.jpg);
+               background-size: cover;
+               border: 1px solid #000;
+               cursor: pointer;
+          }
+
+          .info-site{
+               color: #8E8E8E;
+               padding-top: 10px;
+               padding-bottom: 10px;
+               font-size: 12px;
+          } 
